@@ -84,7 +84,7 @@ To delete all data stored by our extension:
 If you have any questions about this Privacy Policy or our extension, please contact us:
 
 - **GitHub**: https://github.com/bibekchandsah/video-speed-controller
-- **Email**: [Your email address]
+- **Email**: [bibeksha48@gmail.com]
 
 ## Compliance
 
@@ -94,5 +94,6 @@ This extension complies with:
 - California Consumer Privacy Act (CCPA) principles
 
 ---
+
 
 **Summary**: Video Speed Controller is a privacy-focused extension that stores settings locally on your device only. We do not collect, transmit, or share any personal data.
