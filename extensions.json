@@ -1,0 +1,95 @@
+{
+  "extensions": [
+    {
+      "id": "video-speed-controller",
+      "title": "Video Speed Controller",
+      "icon": "🎬",
+      "status": "published",
+      "description": "Enhanced video playback speed control with keyboard shortcuts, visual feedback, and persistent settings. Works seamlessly across 35+ popular video platforms.",
+      "features": [
+        "Keyboard shortcuts (Shift + >, <, R)",
+        "Visual speed display overlay",
+        "Per-website speed memory",
+        "Works on YouTube, Netflix, educational sites",
+        "No data collection or tracking"
+      ],
+      "links": {
+        "chromeStore": "#",
+        "github": "https://github.com/bibekchandsah/video-speed-controller",
+        "sourceCode": "https://github.com/bibekchandsah/video-speed-controller"
+      },
+      "updated": true,
+      "category": "published"
+    },
+    {
+      "id": "custom-new-tab",
+      "title": "Custom New Tab",
+      "icon": "🏠",
+      "status": "published",
+      "description": "Personalized new tab page with custom shortcuts, themes, and quick access to your favorite sites. All data stored locally on your device.",
+      "features": [
+        "Personalized greetings with your name",
+        "Custom profile picture support",
+        "Quick access shortcuts",
+        "Multiple theme options",
+        "Local storage only - no cloud sync"
+      ],
+      "links": {
+        "chromeStore": "#",
+        "github": "#",
+        "sourceCode": "#"
+      },
+      "updated": true,
+      "category": "published"
+    },
+    {
+      "id": "developer-tools-suite",
+      "title": "Developer Tools Suite",
+      "icon": "🔧",
+      "status": "development",
+      "description": "A collection of useful tools for web developers including color picker, JSON formatter, and code beautifier.",
+      "features": [
+        "Color picker and palette generator",
+        "JSON/XML formatter and validator",
+        "Code beautifier for multiple languages",
+        "Lorem ipsum generator",
+        "Base64 encoder/decoder"
+      ],
+      "links": {
+        "chromeStore": "#",
+        "github": "#",
+        "sourceCode": "#"
+      },
+      "updated": false,
+      "category": "upcoming"
+    },
+    {
+      "id": "reading-assistant",
+      "title": "Reading Assistant",
+      "icon": "https://cdn-icons-png.flaticon.com/512/16592/16592521.png",
+      "status": "planned",
+      "description": "Enhance your reading experience with focus mode, reading time estimation, and text-to-speech capabilities.",
+      "features": [
+        "Distraction-free reading mode",
+        "Reading time estimation",
+        "Text-to-speech functionality",
+        "Reading progress tracking",
+        "Custom font and spacing options"
+      ],
+      "links": {
+        "chromeStore": "#",
+        "github": "#",
+        "sourceCode": "#"
+      },
+      "updated": false,
+      "category": "upcoming"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2025-01-21",
+    "totalExtensions": 4,
+    "publishedExtensions": 2,
+    "developmentExtensions": 0,
+    "plannedExtensions": 2
+  }
+}
