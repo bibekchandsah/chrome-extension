@@ -11,6 +11,14 @@
         content="Chrome extensions, browser extensions, productivity tools, video speed controller, custom new tab">
     <meta name="author" content="Bibek Chand Sah">
 
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Extension" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://bibekchandsah.github.io/">
@@ -426,8 +434,8 @@
         <footer class="footer-section">
             <div class="footer-links">
                 <a href="privacy-policy.html">Privacy Policy</a>
-                <a href="https://github.com/bibekchandsah">GitHub Profile</a>
-                <a href="https://github.com/bibekchandsah?tab=repositories">All Repositories</a>
+                <a href="https://github.com/bibekchandsah" target="_blank">GitHub Profile</a>
+                <a href="https://github.com/bibekchandsah?tab=repositories" target="_blank">All Repositories</a>
                 <a href="mailto:bibekchandsah@gmail.com">Contact</a>
             </div>
             <p>&copy; <span id="currentYear">2025</span> Bibek Chand Sah. All rights reserved.</p>
@@ -506,12 +514,12 @@
                 extension.icon;
 
             const primaryButton = buttonConfig.primary ?
-                `<a href="${buttonConfig.primary.href}" class="btn ${extension.status === 'published' ? 'btn-primary' : 'btn-secondary'}" ${buttonConfig.primary.disabled ? 'disabled' : ''}>
+                `<a href="${buttonConfig.primary.href}" class="btn ${extension.status === 'published' ? 'btn-primary' : 'btn-secondary'}" ${buttonConfig.primary.disabled ? 'disabled' : ''} ${buttonConfig.primary.href !== '#' ? 'target="_blank"' : ''}>
                     ${buttonConfig.primary.text}
                 </a>` : '';
 
             const secondaryButton = buttonConfig.secondary ?
-                `<a href="${buttonConfig.secondary.href}" class="btn btn-outline" ${buttonConfig.secondary.disabled ? 'disabled' : ''}>
+                `<a href="${buttonConfig.secondary.href}" class="btn btn-outline" ${buttonConfig.secondary.disabled ? 'disabled' : ''} ${buttonConfig.secondary.href !== '#' ? 'target="_blank"' : ''}>
                     ${buttonConfig.secondary.text}
                 </a>` : '';
 

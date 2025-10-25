@@ -14,7 +14,7 @@
         "No data collection or tracking"
       ],
       "links": {
-        "chromeStore": "#",
+        "chromeStore": "https://chromewebstore.google.com/detail/video-speed-controller/fmpdlaakpnpnakbinmplblbgbelnjcnh?utm_source=item-share-cb",
         "github": "https://github.com/bibekchandsah/video-speed-controller",
         "sourceCode": "https://github.com/bibekchandsah/video-speed-controller"
       },
@@ -35,9 +35,9 @@
         "Local storage only - no cloud sync"
       ],
       "links": {
-        "chromeStore": "#",
-        "github": "#",
-        "sourceCode": "#"
+        "chromeStore": "https://chromewebstore.google.com/detail/custom-new-tab/giabpadpbacdfhmkgehlnbnkpkgiojpn?utm_source=item-share-cb",
+        "github": "https://github.com/bibekchandsah/Homepage",
+        "sourceCode": "https://github.com/bibekchandsah/Homepage"
       },
       "updated": true,
       "category": "published"
